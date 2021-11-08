@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 95vh;
+  background-color: rgb(58, 58, 58);
+  text-align: center;
+}
+h1 {
+  color: rgb(193, 193, 193);
+  letter-spacing: 0.3rem;
+  margin-bottom: 1rem;
+}
+hr {
+  width: 12rem;
+  border-width: 0.2px;
+  margin-bottom: 2rem;
+}
+.form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+label {
+  color: rgb(213, 209, 203);
+  letter-spacing: 0.1rem;
+}
+lable,
+input {
+  margin: 1rem;
+}
+#numberGuess {
+  height: 4rem;
+  width: 4rem;
+  font-size: 22px;
+  text-align: center;
+}
+.submitGuess {
+  cursor: pointer;
+  color: rgb(58, 58, 58);
+  width: 9rem;
+  height: 3rem;
+  font-size: 18px;
+  background-color: rgb(225, 225, 225);
+}
+#result {
+  font-size: 2rem;
+  color: rgb(193, 193, 193);
+  margin-top: 2rem;
+
+  letter-spacing: 0.2rem;
+}
+#gameOver {
+  font-size: 2rem;
+  color: rgb(193, 193, 193);
+  letter-spacing: 0.1rem;
+  margin-top: 0;
+}
